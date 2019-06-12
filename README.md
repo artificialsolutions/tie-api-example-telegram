@@ -1,7 +1,4 @@
 # tie-api-example-telegram
-Example Node.js connector to make your Teneo solution available on Telegram app.
-
-
 This node.js example connector allows you to make a Teneo bot available on Telegram. The connector acts as middleware between Telegram and Teneo. This guide will take you through the steps of deploying the connector to respond to events sent by Teneo.
 
 
@@ -17,8 +14,8 @@ Your bot needs to be published and you need to know the engine URL.
 
 ## Setup instructions
 ### Setup a bot with Telegram's Botfather
-1. Telegram uses a bot called "Botfather" to help developers setup projects. In your app, add "Botfather" as a contact.
-2. Start a new chat with Botfather, and send him a message with `/newbot` as text.
+1. Telegram uses a bot called "Botfather", that works as a wizard, to help developers setup projects. In your app, add "Botfather" as a contact.
+2. Start a new chat with Botfather, and send him "/newbot" as a text message to trigger the setup process.
 3. Follow Botfather's indications to give your bot a new `name`, and `bot_user_name`. 
 4. Botfather will now give you an `HTTP_API_TOKEN`. Store it somewhere safe, and copy it for the following steps.
 
