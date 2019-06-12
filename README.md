@@ -40,5 +40,5 @@ Your bot needs to be published and you need to know the engine URL.
     ```
 
 ### Start chatting with the bot.
-Go back to Telegram and add bot's `user_name` you created previously, as a contact.
+Go back to Telegram and add the bot's `user_name` you created previously, as a contact.
 That's it! Your bot should now be available in Telegram and responding to messages that are sent to it.
