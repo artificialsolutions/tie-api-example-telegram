@@ -1,5 +1,5 @@
 # tie-api-example-telegram
-This node.js example connector makes a Teneo bot available on Telegram. The connector acts as middleware between Telegram and Teneo. This guide will take you through the steps of deploying the connector to respond to events sent by Teneo.
+This node.js example connector makes a Teneo bot available on Telegram. The connector acts as middleware between Telegram and Teneo. This guide will take you through the steps of deploying the connector to respond to events sent by Teneo. Interaction possibilities with Telegram are numerous, this example is based on a no'frills Telegram wrapper called (Slimbot)[https://github.com/edisonchee/slimbot].
 
 
 ## Prerequisites
