@@ -1,27 +1,28 @@
 {
-  "name": "slimbotproject",
-  "version": "0.8.7",
-  "description": "Simple and minimal Telegram Bot API for Node.js. No frills.",
-  "author": "Edison Chee <edisonchee@live.com>",
+  "name": "tie-api-example-telegram",
+  "version": "1.0.0",
+  "description": "Simple and minimal Telegram Bot for Teneo based on Node.js",
+  "author": "Josue Galindo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edisonchee/slimbot.git"
+    "url": "https://github.com/artificialsolutions/tie-api-example-telegram"
   },
-  "main": "./src/slimbot.js",
+  "main": "server.js",
   "keywords": [
     "telegram",
     "bot",
     "api",
     "node",
-    "nodejs"
+    "nodejs",
+    "teneo"
   ],
   "engines": {
     "node": "^11.12.0"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
-    "start": "pm2 start src/index.js --watch",
-    "test": "istanbul cover jasmine --captureExceptions spec/core/*.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "bluebird": "^3.5.3",
@@ -40,9 +41,5 @@
     "jasmine": "^3.3.1",
     "mockery": "^2.1.0",
     "dotenv": "^6.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/edisonchee/slimbot/issues"
-  },
-  "homepage": "https://github.com/edisonchee/slimbot#readme"
+  }
 }
