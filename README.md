@@ -32,7 +32,7 @@ Your bot needs to be published and you need to know the engine URL.
 3. Create a `.env` file in the folder where you stored the source, and add values for TENEO_ENGINE_URL and HTTP_API_TOKEN:
     ```
     TENEO_ENGINE_URL=<your_engine_url>
-    HTTP_API_TOKEN=<that value obtained in the previous section>
+    HTTP_API_TOKEN=<the value obtained in the previous section>
     ```
 4. Start the connector in Console:
     ```
