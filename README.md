@@ -1,5 +1,5 @@
 # tie-api-example-telegram
-This node.js example connector allows you to make a Teneo bot available on Telegram. The connector acts as middleware between Telegram and Teneo. This guide will take you through the steps of deploying the connector to respond to events sent by Teneo.
+This node.js example connector makes a Teneo bot available on Telegram. The connector acts as middleware between Telegram and Teneo. This guide will take you through the steps of deploying the connector to respond to events sent by Teneo. Interaction possibilities with Telegram are numerous, this example is based on a no-frills Telegram wrapper called [Slimbot](https://github.com/edisonchee/slimbot).
 
 
 ## Prerequisites
@@ -32,7 +32,7 @@ Your bot needs to be published and you need to know the engine URL.
 3. Create a `.env` file in the folder where you stored the source, and add values for TENEO_ENGINE_URL and HTTP_API_TOKEN:
     ```
     TENEO_ENGINE_URL=<your_engine_url>
-    HTTP_API_TOKEN=<that value obtained in the previous section>
+    HTTP_API_TOKEN=<the value obtained in the previous section>
     ```
 4. Start the connector in Console:
     ```
@@ -40,5 +40,5 @@ Your bot needs to be published and you need to know the engine URL.
     ```
 
 ### Start chatting with the bot.
-Go back to Telegram and add bot's `user_name` you created previously, as a contact.
+Go back to Telegram and add the bot's `user_name` you created previously, as a contact.
 That's it! Your bot should now be available in Telegram and responding to messages that are sent to it.
