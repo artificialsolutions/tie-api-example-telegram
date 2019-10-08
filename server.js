@@ -63,7 +63,7 @@ console.log("Teneo-Telegram Connector listening...")
  ***/
 function SessionHandler() {
 
-  // Map the Webchat Sid id to the teneo engine session id. 
+  // Map the Telegram Sid id to the teneo engine session id. 
   // This code keeps the map in memory, which is ok for testing purposes
   // For production usage it is advised to make use of more resilient storage mechanisms like redis
   const sessionMap = new Map();
