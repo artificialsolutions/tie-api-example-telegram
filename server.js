@@ -1,7 +1,5 @@
 const TIE = require('@artificialsolutions/tie-api-client');
 const Slimbot = require('slimbot');
-const express = require('express');
-var request = require('request');
 require('dotenv').config();
 
 
